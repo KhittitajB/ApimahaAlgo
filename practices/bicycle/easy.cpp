@@ -50,9 +50,9 @@ int main() {
             }
         }
 
-        // 5. Run BFS from node 1 to find shortest paths 
+        // 5. Run BFS from node 1 to find shortest paths
         queue<int> q;
-        
+
         // 'distances' vector stores shortest path length from 1.
         // We use N+1 for 1-based indexing (nodes 1 to N).
         // -1 means "not visited" or "unreachable".
